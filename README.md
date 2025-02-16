@@ -10,7 +10,7 @@ tags:
 - text-generation-inference
 - unsloth
 ---
-# Empathetic Bot
+
 
 ## Overview
 The chatbot has been fine-tuned on the **PHR Therapy Dataset** using **LLaMA 3.2 3B Instruct**, enhancing its ability to engage in meaningful and supportive conversations.
@@ -34,20 +34,21 @@ The chatbot has been fine-tuned on the **PHR Therapy Dataset** using **LLaMA 3.2
 ## Installation
 
 Using ollama
-
+```
 ollama run hf.co/Ishan93/Fine_tuned_ver2
+```
 
 ## Usage
 
 Using Google Colab or other notebooks
-
+```
 from llama_cpp import Llama
 
 llm = Llama.from_pretrained(
 	repo_id="Ishan93/Fine_tuned_ver2",
 	filename="Fine_tuned_ver2.gguf",
 )
-
+```
 
 
 
