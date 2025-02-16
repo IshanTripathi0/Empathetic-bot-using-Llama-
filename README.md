@@ -34,14 +34,14 @@ The chatbot has been fine-tuned on the **PHR Therapy Dataset** using **LLaMA 3.2
 ## Installation
 
 Using ollama
-```
+```bash
 ollama run hf.co/Ishan93/Fine_tuned_ver2
 ```
 
 ## Usage
 
 Using Google Colab or other notebooks
-```
+```python
 from llama_cpp import Llama
 
 llm = Llama.from_pretrained(
