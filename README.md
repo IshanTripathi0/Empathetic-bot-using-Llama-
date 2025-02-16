@@ -31,6 +31,22 @@ The chatbot has been fine-tuned on the **PHR Therapy Dataset** using **LLaMA 3.2
   - Mixed Precision Training for speed and memory efficiency
   - Supervised Fine-Tuning (SFT) on therapist-patient interactions
 
+## Installation
+
+Using ollama
+
+ollama run hf.co/Ishan93/Fine_tuned_ver2
+
+## Usage
+
+Using Google Colab or other notebooks
+
+from llama_cpp import Llama
+
+llm = Llama.from_pretrained(
+	repo_id="Ishan93/Fine_tuned_ver2",
+	filename="Fine_tuned_ver2.gguf",
+)
 
 
 
