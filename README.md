@@ -25,7 +25,7 @@ The chatbot has been fine-tuned on the **PHR Therapy Dataset** using **LLaMA 3.2
 - **Base Model**: LLaMA 3.2 3B Instruct
 - **Dataset**: PHR Therapy Dataset (contains therapist-patient conversations for empathetic response generation)
 - **Fine-Tuning Framework**: Unsloth (optimized training for efficiency)
-- **Training Environment**: Local GPU / Cloud Instance (depending on available resources)
+- **Training Environment**: Google Colab free version
 - **Optimization Techniques**:
   - LoRA (Low-Rank Adaptation) for parameter-efficient tuning
   - Mixed Precision Training for speed and memory efficiency
